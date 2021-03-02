@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<meta name="viewport" content="width=device=width" inital-scale=1.0>
+	<link rel="stylesheet" href="styles.css">  
+	 <script src="script.js"></script> 
+</head>
+<body><br><br>
+
+	<div class="wrapper">
+		<div class="item item1">
+			<textarea id="textbox" placeholder="Hi There"></textarea>
+		</div>
+
+		<div class="item">
+			<button class="button button3" value="/" onclick="insert('/')">/</button>
+		</div>
+
+		<div class="item ">
+			<button class="button button1" value="1" onclick="insert(1)">1</button>
+		</div>
+
+		<div class="item">
+			<button class="button button1" value="2" onclick="insert(2)">2</button>
+		</div>
+
+		<div class="item">
+			<button class="button button1" value="3" onclick="insert(3)">3</button>
+		</div>
+
+		<div class="item">
+			<button class="button button3" value="Oops" onclick="del()">Oops</button>
+		</div>
+
+		<div class="item">
+			<button class="button button3" value="*" onclick="insert('*')">*</button>
+		</div>
+
+		<div class="item">
+			<button class="button button1" value="4" onclick="insert(4)">4</button>
+		</div>
+
+		<div class="item">
+			<button class="button button1" value="5" onclick="insert(5)">5</button>
+		</div>
+
+		<div class="item">
+			<button class="button button1" value="6" onclick="insert(6)">6</button>
+		</div>
+
+		<div class="item">
+			<button class="button button3" value="C" onclick="clean()">Clr</button>
+		</div>
+
+		<div class="item">
+			<button class="button button3" value="-" onclick="insert('-')">-</button>
+		</div>
+
+		<div class="item">
+			<button class="button button1" value="7" onclick="insert(7)">7</button>
+		</div>
+
+		<div class="item">
+			<button class="button button1" value="8" onclick="insert(8)">8</button>
+		</div>
+
+		<div class="item">
+			<button class="button button1" value="9" onclick="insert(9)">9</button>
+		</div>
+
+		<div class="item">
+			<button class="button button3" value="backward" onclick="previous()">Prev</button>
+		</div>
+
+		<div class="item">
+			<button class="button button3" value="+" onclick="insert('+')">+</button>
+		</div>
+
+		<div class="item">
+			<button class="button button1" value="." onclick="insert('.')">.</button>
+		</div>
+
+		<div class="item">
+			<button class="button button1" value="0" onclick="insert(0)">0</button>
+		</div>
+
+		<div class="item">
+			<button class="button button1" value="=" onclick="equal()">=</button>
+		</div>
+
+		<div class="item">
+			<button class="button button3" value="forward" onclick="delHistory()">Del History</button>
+		</div>
+
+		<div class="item item22">
+			<button class="button button2" value="history" onclick="history()">History</button>
+		</div>
+
+		<div class="item item23">
+			<span>History</span>
+			<textarea id="historylist" disabled></textarea>
+		</div>
+	</div>
+</body>
+</html> 
